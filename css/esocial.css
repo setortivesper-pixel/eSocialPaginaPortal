@@ -53,7 +53,7 @@ a {
     align-items: center;
     justify-content: center;
 
-    background: var(--azul-escuro);
+    background: #1c4230;
     color: var(--branco);
 
     border-radius: 10px;
@@ -154,7 +154,7 @@ a {
 }
 
 .tabela-esocial thead th {
-    background: var(--azul-header);
+    background: linear-gradient(180deg, #1c4230 100%, #122b21 100%, #0e2419 100%);
     color: var(--branco);
 
     text-align: left;
@@ -280,6 +280,21 @@ a {
     font-weight: 800;
 
     letter-spacing: 0.2px;
+}
+
+.icone-esocial{
+    width:54px;
+    height:54px;
+    border-radius:14px; /* quadrado com cantos suaves, não círculo */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f8fafc;
+    border:1px solid #eef2f7;
+    color:#2563eb;
+    font-size:22px;
+    margin-bottom:18px;
+    overflow:hidden;
 }
 
 /* =========================
