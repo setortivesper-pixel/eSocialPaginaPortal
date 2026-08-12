@@ -1,6 +1,14 @@
-/* Dados dos eventos */
+/* Dados dos eventos
+
+Como adicionar um novo erro: 
+No arquivo js/esocial-evento.js, localize o evento desejado e preencha o array erros.
+{mensagem: "Descreva aqui a mensagem exibida pelo eSocial.", 
+solucao: "Explique aqui o procedimento para corrigir o problema."} 
+
+*/
+
 const eventos = {
-    "S-1000": { titulo: "Informações do Empregador/Contribuinte/Órgão Público", descricao: "Informações do Empregador/Contribuinte/Órgão Público.", erros: [] },
+    "S-1000": { titulo: "Informações do Empregador/Contribuinte/Órgão Público", descricao: "Informações do Empregador/Contribuinte/Órgão Público.", erros: [{mensagem: "201.", solucao: "Isso indica que seu evento foi enviado com sucesso."}] },
     "S-1005": { titulo: "Tabela de Estabelecimentos, Obras ou Unidades de Órgãos Públicos", descricao: "Tabela de Estabelecimentos, Obras ou Unidades de Órgãos Públicos.", erros: [] },
     "S-1010": { titulo: "Tabela de Rubricas", descricao: "Tabela de Rubricas.", erros: [] },
     "S-1020": { titulo: "Tabela de Lotações Tributárias", descricao: "Tabela de Lotações Tributárias.", erros: [] },
