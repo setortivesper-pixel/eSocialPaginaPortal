@@ -284,6 +284,12 @@ a {
   letter-spacing: 0.2px;
 }
 
+p.instrucao {
+  font-size: 20px;
+  color: var(--cinza-texto);
+  padding-top: 4px;
+}
+
 .icone-esocial {
   width: 54px;
   height: 54px;
